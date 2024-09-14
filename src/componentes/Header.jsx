@@ -7,13 +7,13 @@ const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-black fs-5" data-bs-theme="dark">
-      <a className="navbar-brand" href="#"><img src={logo} alt="" width={100} /></a>
+      <Link to={'/'} className="navbar-brand" href="#"><img src={logo} alt="" width={100} /></Link>
         <div className="container-fluid d-flex justify-content-center">
           <div className="d-flex justify-content-center">
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link to={"/inicio"} className="nav-link active" aria-current="page" href="#">Incio</Link>
+                  <Link to={"/"} className="nav-link active" aria-current="page" href="#">Inicio</Link>
                 </li>
                 <li className="nav-item">
                   <Link to={"/movil"} className="nav-link" aria-current="page" href="#">Movil</Link>

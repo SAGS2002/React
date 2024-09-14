@@ -5,6 +5,7 @@ import Laptop from "../src/pages/Laptop"
 import Movil from "../src/pages/Movil"
 import './App.css'
 import Header from "./componentes/Header"
+import Footer from "./componentes/Footer"
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/movil" element={<Movil/>} />
           <Route path="*" element={<Inicio/>} />
       </Routes>
+      <Footer />
       </main>
   </BrowserRouter>
   </>
